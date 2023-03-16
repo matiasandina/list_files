@@ -89,18 +89,3 @@ def list_files_fast(path=os.getcwd(), pattern=None, all_files=False, full_names=
           yield from scan(entry.path)
 
   return list(scan(path))
-
-
-
-import timeit
-def test_list_files(func, pattern):
-  a=timeit.timeit(lambda: func(pattern=pattern, recursive=True), number=100)
-  b=timeit.timeit(lambda: func(pattern=pattern, recursive=False), number=100)
-  c=timeit.timeit(lambda: func(pattern=pattern, recursive=True, ignore_case=True), number=100)
-  d=timeit.timeit(lambda: func(pattern=pattern, recursive=False, ignore_case=True), number=100)
-  e=timeit.timeit(lambda: func(pattern=pattern, recursive=True, full_names=True), number=100)
-  f=timeit.timeit(lambda: func(pattern=pattern, recursive=False, full_names=True), number=100)
-  return [a, b, c, d, e, f]
-# the differences are negligible 
-fast = test_list_files(list_files_fast, pattern="l$")
-slow = test_list_files(list_files, pattern="l$")
