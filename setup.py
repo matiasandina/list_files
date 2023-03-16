@@ -34,11 +34,11 @@ setup(
     long_description=readme + '\n\n' + history,
     include_package_data=True,
     keywords='list_files',
-    name='list_files',
+    name='rlist_files',
     packages=find_packages(include=['list_files', 'list_files.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/matiasandina/list_files',
+    url='https://github.com/matiasandina/rlist_files',
     version='0.0.1',
     zip_safe=False,
 )

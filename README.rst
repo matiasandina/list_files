@@ -3,19 +3,19 @@ list_files
 ==========
 
 
-.. image:: https://img.shields.io/pypi/v/list_files.svg
-        :target: https://pypi.python.org/pypi/list_files
+.. image:: https://img.shields.io/pypi/v/rlist_files.svg
+        :target: https://pypi.python.org/pypi/rlist_files
 
-.. image:: https://img.shields.io/travis/matiasandina/list_files.svg
-        :target: https://travis-ci.com/matiasandina/list_files
+.. image:: https://img.shields.io/travis/matiasandina/rlist_files.svg
+        :target: https://travis-ci.com/matiasandina/rlist_files
 
-.. image:: https://readthedocs.org/projects/list-files/badge/?version=latest
+.. image:: https://readthedocs.org/projects/rlist-files/badge/?version=latest
         :target: https://list-files.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/matiasandina/list_files/shield.svg
-     :target: https://pyup.io/repos/github/matiasandina/list_files/
+.. image:: https://pyup.io/repos/github/matiasandina/rlist_files/shield.svg
+     :target: https://pyup.io/repos/github/matiasandina/rlist_files/
      :alt: Updates
 
 
@@ -24,7 +24,7 @@ Function to list the files in directory with pattern recognition and regular exp
 
 
 * Free software: MIT license
-* Documentation: https://list-files.readthedocs.io.
+* Documentation: https://rlist-files.readthedocs.io.
 
 
 Features
