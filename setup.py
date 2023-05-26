@@ -35,10 +35,10 @@ setup(
     include_package_data=True,
     keywords='list_files',
     name='rlist_files',
-    packages=find_packages(include=['list_files', 'list_files.*']),
+    packages=find_packages(include=['rlist_files', 'list_files.*']),
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/matiasandina/rlist_files',
-    version='0.0.1',
+    version='0.0.2',
     zip_safe=False,
 )

@@ -8,11 +8,11 @@ Installation
 Stable release
 --------------
 
-To install list_files, run this command in your terminal:
+To install rlist_files, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install list_files
+    $ pip install rlist_files
 
 This is the preferred method to install list_files, as it will always install the most recent stable release.
 
@@ -26,19 +26,19 @@ you through the process.
 From sources
 ------------
 
-The sources for list_files can be downloaded from the `Github repo`_.
+The sources for rlist_files can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/matiasandina/list_files
+    $ git clone git://github.com/matiasandina/rlist_files
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl -OJL https://github.com/matiasandina/list_files/tarball/master
+    $ curl -OJL https://github.com/matiasandina/rlist_files/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/matiasandina/list_files
-.. _tarball: https://github.com/matiasandina/list_files/tarball/master
+.. _Github repo: https://github.com/matiasandina/rlist_files
+.. _tarball: https://github.com/matiasandina/rlist_files/tarball/master

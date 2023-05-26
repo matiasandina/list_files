@@ -2,9 +2,9 @@
 Usage
 =====
 
-To use list_files in a project::
+To use rlist_files in a project::
 
-    from list_files import list_files
+    from rlist_files.list_files import list_files
     # defaults to current dir
     list_files()
     # specific dir
