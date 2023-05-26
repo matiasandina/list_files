@@ -60,7 +60,10 @@ def list_files(path=os.getcwd(), pattern=None, all_files=False, full_names=False
   if not all_files:
     matches = [m for m in matches if not os.path.isdir(m)]
 
-  return matches.sort()
+  # sort
+  matches.sort()
+  
+  return matches
 
 
 import re
